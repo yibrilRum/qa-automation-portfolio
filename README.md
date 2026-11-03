@@ -26,7 +26,7 @@ npm run report:pw   # open the HTML report
 
 1. Login success
 2. Login failure (wrong password, locked-out user)
-3. Add to cart (planned)
+3. Add to cart
 4. Checkout (planned)
 5. Form validation (planned)
 
