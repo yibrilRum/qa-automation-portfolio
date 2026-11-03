@@ -1,0 +1,18 @@
+{
+  "name": "qa-automation-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Same scenarios automated across multiple tools against SauceDemo",
+  "scripts": {
+    "test:pw": "playwright test",
+    "test:pw:headed": "playwright test --headed",
+    "test:pw:ui": "playwright test --ui",
+    "report:pw": "playwright show-report"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
