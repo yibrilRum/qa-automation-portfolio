@@ -8,7 +8,7 @@ The same user flows automated with several tools against [SauceDemo](https://www
 
 | Tool | Status |
 |---|---|
-| Playwright | In progress (login scenarios) |
+| Playwright | Complete (5 scenarios, Page Object Model) |
 | Cypress | Planned |
 | Selenium | Planned |
 | Jest / API | Planned |
@@ -27,8 +27,8 @@ npm run report:pw   # open the HTML report
 1. Login success
 2. Login failure (wrong password, locked-out user)
 3. Add to cart
-4. Checkout (planned)
-5. Form validation (planned)
+4. Checkout
+5. Form validation
 
 ## Maintenance log
 
